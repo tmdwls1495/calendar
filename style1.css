@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+}
+.container{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background: rgb(245, 241, 241);
+}
+
+.main{
+    background-color: beige;
+     width: 698px;
+    margin: 50px auto 0;
+    padding: 20px 0px 20px 25px;
+    border-radius: 10px;
+}
+
+.main .main-title{
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.main .day{
+    width: 100%;
+}
+
+.main .day li{
+    float: left;
+    background: white;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+
+
+.main .day li:hover{
+    cursor: pointer;
+    transition: all .2s;
+    transform: scale(1.5);
+}
+
+.month{
+    color: black;
+    font-size: 22px;
+    text-align:center;
+    margin-left: -25px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.dayCount .dayCount-list li{
+    float: left;
+    width: 94px;
+    color: black;
+}
+
+.none{
+    display: none;
+}
